@@ -1,4 +1,3 @@
-// src/App.js
 import React, { useState } from 'react';
 import DataEntry from './components/DataEntry';
 import QuestionPaper from './components/QuestionPaper';
