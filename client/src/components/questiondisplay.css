@@ -1,0 +1,28 @@
+.container {
+    max-width: 600px;
+    margin: auto;
+  }
+  
+  h2 {
+    color: #4caf50;
+  }
+  
+  ul {
+    list-style-type: none;
+    padding: 0;
+  }
+  
+  li {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  li:nth-child(odd) {
+    background-color: #f9f9f9;
+  }
+  
+  li:hover {
+    background-color: #f0f0f0;
+  }
+  
