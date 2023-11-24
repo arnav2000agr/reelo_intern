@@ -8,7 +8,7 @@ function App() {
 
   const generateQuestionPaper = async (formData) => {
     // Sending a POST request to the backend
-    const response = await fetch('http://localhost:5000/generate-question-paper', {
+    const response = await fetch('https://reelo-api.onrender.com/generate-question-paper', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
